@@ -35,6 +35,15 @@
     }
 }
 
+@media only screen and (min-width: 934px) {
+    #secondText {
+        font-size: 17px;
+
+    }
+
+
+}
+
 
 @media only screen and (max-width: 500px) {
     #thirdText {
@@ -51,16 +60,22 @@
     }
 }
 
+@media only screen and (min-width: 934px) {
+    #thirdText {
+        font-size: 17px;
+
+    }
+
+
+}
+
 @media only screen and (max-width: 500px) {
     #forthText {
         font-size: 12px;
 
     }
 
-    #forthPart{
-        
-        
-    }
+    
 }
 
 @media only screen and (max-width: 934px) {
@@ -69,10 +84,19 @@
 
     }
 
-    #forthPart{
-       
-    }
+    
 }
+
+@media only screen and (min-width: 934px) {
+    #forthText {
+        font-size: 16px;
+
+    }
+
+
+}
+
+
 
 
 
