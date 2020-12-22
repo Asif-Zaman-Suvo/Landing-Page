@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>আমার ঢাকা</title>
     <link rel="stylesheet" href="./style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 <body>
@@ -13,7 +17,7 @@
         <section class="first-layer">
 
             <div class="image-overlay">
-                <h1 class="first-layer-header">ঢাকাতে প্রতিদিন এর কিছু চ্যালেঞ্জসমূহ</h1>
+                <h1 id='headerText' class="first-layer-header animate__animated animate__bounceInDown">ঢাকাতে প্রতিদিন এর কিছু চ্যালেঞ্জসমূহ</h1>
                 <hr class='border'>
 
             </div>
@@ -24,12 +28,12 @@
 
         <section class="second-layer">
             <div class="layer-left">
-                <img id='trafficJamImage' class="left-layer-image" src="./images/traffic jam.jpg">
+                <img id='trafficJamImage' class="left-layer-image animate__animated animate__zoomIn animate__repeat-3" src="./images/traffic jam.jpg">
             </div>
 
             <div class="layer-right">
 
-                <p class="right-text">সকাল বেলা ঘুম থেকে উঠেই আপনি যখন বাইরে অফিসের জন্য বের হবেন,সবার আগেই আপনার
+                <p id='secondText' class="right-text animate__animated animate__slideInLeft animate__repeat-3">সকাল বেলা ঘুম থেকে উঠেই আপনি যখন বাইরে অফিসের জন্য বের হবেন,সবার আগেই আপনার
                     চোখে পড়বে এই ট্রাফিক জ্যাম । এর কারন হচ্ছে অধিক জনসংখ্যা । আমাদের দেশের জনসংখ্যা ক্রমশ বৃদ্ধি
                     পাচ্ছে , এবং সেই সাথে বাড়ছে বাড়তি যানবাহন এর ব্যাবহার। এছাড়া গাড়ির কালো ধোয়া তো আছেই । সর্বোপরি
                     যানযট সমস্যা টা আমাদের ঢাকার একটি বড় সমস্যা বলে আমি মনে করি । এর সাথে আরো রয়েছে ফিটনেস বিহীন
@@ -46,27 +50,27 @@
         <section class="third-layer">
             <div class="layer-left">
                
-                <p class="right-text">
+                <p id="thirdText" class="right-text animate__animated animate__slideInRight animate__repeat-2">
                     কৃষি উৎপাদন বাড়লেও নিরাপদ খাদ্য নিশ্চিত করা বাংলাদেশের জন্য প্রধান চ্যালেঞ্জ। খাদ্য উৎপাদনে সঠিক জ্ঞান ও অসাধুতা এবং বাজারজাতকরণ ও বিপণনে দক্ষ ব্যবস্থাপনার অভাবে বাংলাদেশ নিরাপদ খাদ্য যোগানে অনেক পিছিয়ে। প্রতিদিন খাবার গ্রহণের সময় নানা প্রশ্নে জর্জরিত হচ্ছি আমরা। যা খাচ্ছি তা বিষ নয় তো? ফলমূলে কেমিকেল, মাছে ফরমালিন, মাংসে ক্ষতিকর হরমোন, শাকসবজিতে কীটনাশকের অবশিষ্টাংশ- এ ধরনের অনেক সংশয় ও আতঙ্কের মধ্যেই আমরা বেঁচে আছি।
                 </p>
 
             </div>
 
             <div class="layer-right">
-                <img class="left-layer-image" src="./images/Food-Poison.jpg"></img>
+                <img class="left-layer-image animate__animated animate__zoomIn animate__repeat-3" src="./images/Food-Poison.jpg"></img>
                
             </div>
 
         </section>
 
-        <section class="forth-layer">
+        <section id='forthPart' class="forth-layer">
             <div class="layer-left">
-                <img class="left-layer-image" src="./images/no-vacancy.jpg"></img>
+                <img class="left-layer-image animate__animated animate__zoomIn animate__delay-1s" src="./images/no-vacancy.jpg"></img>
 
             </div>
 
-            <div class="layer-right">
-                <p class="right-text">
+            <div  class="layer-right">
+                <p id="forthText" class="right-text animate__animated animate__zoomIn animate__delay-2s">
                     দেশের জনসংখ্যা বেড়েই চলেছে ,জনসংখ্যা বাড়লেও বাড়ছেনা কর্মসংস্থান এর সুযোগ ,সেই সাথে বাড়ছে না দক্ষ জনবল,ফলে বেড়েই চলেছে বেকারত্ব,বেকারত্ব হ্রাসে দরকার কর্মসংস্থান সৃষ্টি; তবে তা রাতারাতি হবে না। এর জন্য দরকার বিনিয়োগ এবং চাকরি তৈরি করতে পারে এমন প্রতিষ্ঠান গড়ে ওঠা। বেকারত্ব দূর করার জন্য আশু করণীয় হলো- প্রশিক্ষিত জনশক্তি সৃষ্টি। সরকারের বিভিন্ন প্রতিষ্ঠান তরুণদের প্রশিক্ষণ দিয়ে থাকে। তবে গতানুগতিক নয়, উচ্চতর প্রশিক্ষণ দিতে হবে। এমন প্রশিক্ষণ একজন প্রশিক্ষণার্থীকে উদ্যোক্তায় পরিণত করবে। এর জন্য উপজেলাভিত্তিক ম্যাপিং প্রয়োজন। যে উপজেলায় যেমন রিসোর্সের জোগান রয়েছে, তার ভিত্তিতে প্রশিক্ষণ দিতে হবে। প্রশিক্ষণার্থীকে দক্ষ করে এবং ঋণ সুবিধা দিয়ে তার উদ্যোগ দাঁড় না হওয়া পর্যন্ত সহায়তা করতে হবে। এর মাধ্যমে বড় সংখ্যায় বেকারত্ব কমানো সম্ভব হবে।
                 </p>
             </div>
