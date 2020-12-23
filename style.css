@@ -74,6 +74,7 @@
         font-size: 12px;
 
     }
+    #
 }
 
 @media only screen and (max-width: 350px) {
@@ -176,7 +177,7 @@
 }
 
 .forth-layer{
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background-color:firebrick;
 
