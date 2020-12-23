@@ -100,12 +100,6 @@
 
 }
 
-
-
-
-
-
-
 .image-overlay{
     
         width:100%;
@@ -177,7 +171,7 @@
 }
 
 .forth-layer{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background-color:firebrick;
 
