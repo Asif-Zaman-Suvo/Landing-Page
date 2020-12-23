@@ -74,24 +74,20 @@
         font-size: 12px;
 
     }
-
-    
 }
 
 @media only screen and (max-width: 934px) {
-    #forthText {
-        font-size: 12px;
+  #forthText {
+      font-size: 12px;
 
-    }
-
-    
+  }
 }
 
 @media only screen and (min-width: 934px) {
-    #forthText {
-        font-size: 16px;
+  #forthText {
+      font-size: 17px;
 
-    }
+  }
 
 
 }
